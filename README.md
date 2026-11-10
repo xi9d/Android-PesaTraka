@@ -37,6 +37,12 @@ Additional technologies, including backend services and database solutions, will
 Every piece of work must meet the checks in [DONE.md](DONE.md). <br>
 Architecture decisions are recorded in [docs/decisions](docs/decisions).
 
+## To run your application, ty
+
+<ul>
+<li>cd packages/app</li>
+<li>flutter run</li>
+</ul> 
 
 ## 📂 Project Structure
 
