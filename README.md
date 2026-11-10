@@ -82,7 +82,7 @@ git clone https://github.com/YOUR-USERNAME/Android-PesaTraka.git
 <br>
 Navigate into the project directory:
 <code>
-cd Android-PesaTraka
+cd Android-PesaTraka/packages/app
 </code>
 <br>
 Install dependencies:

@@ -1,0 +1,14 @@
+name: pesatraka_workspace
+publish_to: none
+
+environment:
+  sdk: ^3.13.7
+
+workspace:
+  - packages/domain
+  - packages/data
+  - packages/pesatraka_sync
+  - packages/fake_bank
+  - packages/app
+dev_dependencies:
+  melos: ^8.10.1
