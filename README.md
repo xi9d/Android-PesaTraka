@@ -69,25 +69,28 @@ Android Emulator or a physical Android device <br>
 Git
 #### Installation
 Clone the repository:
+<br>
 <code>
 git clone https://github.com/YOUR-USERNAME/Android-PesaTraka.git
 </code>
+<br>
 Navigate into the project directory:
 <code>
 cd Android-PesaTraka
 </code>
+<br>
 Install dependencies:
 <code>
 flutter pub get
-</code>
+</code><br>
 Check your Flutter environment:
 <code>
 flutter doctor
-</code>
+</code><br>
 Run the application:
 <code>
 flutter run
-</code>
+</code><br>
 
 ## 🗺️ Development Roadmap
 <ul>
