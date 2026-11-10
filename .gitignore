@@ -1,0 +1,8 @@
+.fvm/
+.dart_tool/
+build/
+.packages
+*.iml
+.idea/
+.DS_Store
+.env*
