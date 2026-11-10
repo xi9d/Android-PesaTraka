@@ -14,20 +14,21 @@ PesaTraka aims to make personal financial management easier by bringing essentia
 Built with Flutter, the application is designed to support Android devices, with the potential for expansion to other platforms.
 
 ## ✨ Planned Features
-Transaction Tracking – Record and monitor income and expenses.
-Expense Management – Categorize and manage daily spending.
-Income Tracking – Keep track of different sources of income.
-Financial Dashboard – View an overview of your financial activities.
-Transaction History – Review previous transactions.
-Budget Management – Set and monitor spending limits.
-Reports and Analytics – Understand spending patterns.
-User Authentication – Secure access to personal financial information.
-🛠️ Technology Stack
-Technology	Purpose
-Flutter	Cross-platform mobile development
-Dart	Application programming language
-Git & GitHub	Version control and collaboration
-Android Studio / VS Code	Development environment
+Transaction Tracking – Record and monitor income and expenses.<br>
+Expense Management – Categorize and manage daily spending.<br>
+Income Tracking – Keep track of different sources of income.<br>
+Financial Dashboard – View an overview of your financial activities.<br>
+Transaction History – Review previous transactions.<br>
+Budget Management – Set and monitor spending limits.<br>
+Reports and Analytics – Understand spending patterns.<br>
+User Authentication – Secure access to personal financial information.<br>
+
+## 🛠️ Technology Stack
+
+Flutter	Cross -platform mobile development <br>
+Dart	-      Application programming language <br>
+Git & GitHub	Version control and collaboration <br>
+Android Studio / VS Code	Development environment <br>
 
 Additional technologies, including backend services and database solutions, will be documented as the project evolves.
 
@@ -40,77 +41,86 @@ Architecture decisions are recorded in [docs/decisions](docs/decisions).
 ## 📂 Project Structure
 
 The planned Flutter project structure:
-
-PesaTraka/
-├── DONE.md
-├── docs/decisions/        # ADRs
-├── packages/
-│   ├── domain/            # pure Dart: Money, ids, sealed states
-│   ├── data/              # Drift schema, migrations, dio client
-│   ├── sync/              # outbox, worker, conflict policy
-│   ├── fake_bank/         # shelf server with failure knobs
-│   └── app/               # Flutter app: UI + state only
-├── tool/                  # seed generator, ADR lint, chaos scripts
-├── infra/                 # docker-compose, dashboards
-└── .github/workflows/ci.yml
+<br>
+<code>
+PesaTraka/ <br>
+├── DONE.md <br>
+├── docs/decisions/        # ADRs <br>
+├── packages/ <br>
+│   ├── domain/            # pure Dart: Money, ids, sealed states <br>
+│   ├── data/              # Drift schema, migrations, dio client <br>
+│   ├── sync/              # outbox, worker, conflict policy <br>
+│   ├── fake_bank/         # shelf server with failure knobs <br>
+│   └── app/               # Flutter app: UI + state only <br>
+├── tool/                  # seed generator, ADR lint, chaos scripts <br>
+├── infra/                 # docker-compose, dashboards <br>
+└── .github/workflows/ci.yml <br>
+</code>
 
 ## ⚙️ Getting Started
-Prerequisites
+ ####  Prerequisites
 
-Before running the project, ensure you have installed:
+Before running the project, ensure you have installed: <br>
 
-Flutter SDK
-Dart SDK (included with Flutter)
-Android Studio or Visual Studio Code
-Android Emulator or a physical Android device
+Flutter SDK <br>
+Dart SDK (included with Flutter)<br>
+Android Studio or Visual Studio Code <br>
+Android Emulator or a physical Android device <br>
 Git
-Installation
+#### Installation
 Clone the repository:
-bash
+<code>
 git clone https://github.com/YOUR-USERNAME/Android-PesaTraka.git
-
+</code>
 Navigate into the project directory:
-bash
+<code>
 cd Android-PesaTraka
-
+</code>
 Install dependencies:
-bash
+<code>
 flutter pub get
-
+</code>
 Check your Flutter environment:
-bash
+<code>
 flutter doctor
-
+</code>
 Run the application:
-bash
+<code>
 flutter run
+</code>
 
 ## 🗺️ Development Roadmap
-Initialize Flutter project
-Design application UI and navigation
-Implement user authentication
-Develop transaction management
-Implement income and expense tracking
-Build financial dashboard
-Add budget management
-Implement reports and analytics
-Add database and backend integration
-Perform testing and debugging
-Prepare Android release build
+<ul>
+ <li> Initialize Flutter project  </li>
+ <li>Design application UI and navigation</li>
+ <li>Implement user authentication</li>
+ <li>Develop transaction management</li>
+ <li>Implement income and expense tracking</li>
+ <li>Build financial dashboard</li>
+ <li>Add budget management</li>
+ <li>Implement reports and analytics</li>
+ <li>Add database and backend integration</li>
+ <li>Perform testing and debugging</li>
+ <li>Prepare Android release build</li>
+</ul>
+
 ## 🔐 Security
 
-Security and privacy are important aspects of PesaTraka. The application will prioritize protecting user information and financial records as development progresses.
+Security and privacy are important aspects of PesaTraka. <br>
+The application will prioritize protecting user information and financial records as development progresses.
 
 ## 🤝 Contributions
 
 Contributions, suggestions, and feedback are welcome.
 
-If you would like to contribute:
+If you would like to contribute: <br>
+<ul>
+ <li>Fork the repository. </li>
+<li>Create a feature branch.</li>
+<li>Commit your changes.</li>
+<li>Submit a pull request.</li>
+</ul>
 
-Fork the repository.
-Create a feature branch.
-Commit your changes.
-Submit a pull request.
 ## 📌 Project Status
 
 Currently in development.
